@@ -1,0 +1,30 @@
+﻿生成启动时间为 2019/4/18 12:38:05。
+     1>项目“C:\Users\hawk\Documents\Visual Studio 2012\Projects\intubation_master\intubation_master\intubation_master.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\opencv2.4.12\opencv\build\x86\vc12\..\..\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\intubation_master.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt intubation_master.cpp intubation_masterDlg.cpp
+         intubation_masterDlg.cpp
+     1>c:\users\hawk\documents\visual studio 2012\projects\intubation_master\intubation_master\intubation_masterdlg.cpp(297): warning C4305: “=”: 从“int”到“BYTE”截断
+     1>c:\users\hawk\documents\visual studio 2012\projects\intubation_master\intubation_master\intubation_masterdlg.cpp(297): warning C4309: “=”: 截断常量值
+         正在生成代码...
+     1>c:\users\hawk\documents\visual studio 2012\projects\intubation_master\intubation_master\intubation_masterdlg.cpp(438): warning C4715: “recieveMat”: 不是所有的控件路径都返回值
+         正在编译...
+         intubation_master.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hawk\Documents\Visual Studio 2012\Projects\intubation_master\Debug\intubation_master.exe" /INCREMENTAL /NOLOGO /LIBPATH:Winmm.lib /LIBPATH:E:\opencv2.4.12\opencv\build\x86\vc12\lib opencv_calib3d2412d.lib opencv_contrib2412d.lib opencv_core2412d.lib opencv_features2d2412d.lib opencv_flann2412d.lib opencv_calib3d2412.lib opencv_contrib2412.lib opencv_core2412.lib opencv_features2d2412.lib opencv_flann2412.lib opencv_gpu2412.lib opencv_highgui2412.lib opencv_imgproc2412.lib opencv_legacy2412d.lib opencv_ml2412.lib opencv_nonfree2412.lib opencv_objdetect2412.lib opencv_ocl2412.lib opencv_photo2412.lib opencv_stitching2412.lib opencv_superres2412.lib opencv_ts2412.lib opencv_video2412.lib opencv_videostab2412.lib opencv_gpu2412d.lib opencv_highgui2412d.lib opencv_imgproc2412d.lib opencv_ml2412d.lib opencv_nonfree2412d.lib opencv_objdetect2412d.lib opencv_ocl2412d.lib opencv_photo2412d.lib opencv_stitching2412d.lib opencv_superres2412d.lib opencv_ts2412d.lib opencv_video2412d.lib opencv_videostab2412d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\hawk\Documents\Visual Studio 2012\Projects\intubation_master\Debug\intubation_master.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hawk\Documents\Visual Studio 2012\Projects\intubation_master\Debug\intubation_master.lib" /MACHINE:X86 Debug\intubation_master.res
+         Debug\intubation_master.obj
+         Debug\intubation_masterDlg.obj
+         Debug\stdafx.obj
+     1>intubation_masterDlg.obj : error LNK2019: 无法解析的外部符号 _HidD_GetAttributes@8，该符号在函数 "public: void __thiscall Cintubation_masterDlg::SearchForDevices(void)" (?SearchForDevices@Cintubation_masterDlg@@QAEXXZ) 中被引用
+     1>intubation_masterDlg.obj : error LNK2019: 无法解析的外部符号 _HidD_GetHidGuid@4，该符号在函数 "public: void __thiscall Cintubation_masterDlg::SearchForDevices(void)" (?SearchForDevices@Cintubation_masterDlg@@QAEXXZ) 中被引用
+     1>intubation_masterDlg.obj : error LNK2019: 无法解析的外部符号 _HidD_GetProductString@12，该符号在函数 "public: void __thiscall Cintubation_masterDlg::SearchForDevices(void)" (?SearchForDevices@Cintubation_masterDlg@@QAEXXZ) 中被引用
+     1>intubation_masterDlg.obj : error LNK2019: 无法解析的外部符号 __imp__SetupDiDestroyDeviceInfoList@4，该符号在函数 "public: void __thiscall Cintubation_masterDlg::SearchForDevices(void)" (?SearchForDevices@Cintubation_masterDlg@@QAEXXZ) 中被引用
+     1>intubation_masterDlg.obj : error LNK2019: 无法解析的外部符号 __imp__SetupDiEnumDeviceInterfaces@20，该符号在函数 "public: void __thiscall Cintubation_masterDlg::SearchForDevices(void)" (?SearchForDevices@Cintubation_masterDlg@@QAEXXZ) 中被引用
+     1>intubation_masterDlg.obj : error LNK2019: 无法解析的外部符号 __imp__SetupDiGetDeviceInterfaceDetailW@24，该符号在函数 "public: void __thiscall Cintubation_masterDlg::SearchForDevices(void)" (?SearchForDevices@Cintubation_masterDlg@@QAEXXZ) 中被引用
+     1>intubation_masterDlg.obj : error LNK2019: 无法解析的外部符号 __imp__SetupDiGetClassDevsW@16，该符号在函数 "public: void __thiscall Cintubation_masterDlg::SearchForDevices(void)" (?SearchForDevices@Cintubation_masterDlg@@QAEXXZ) 中被引用
+     1>C:\Users\hawk\Documents\Visual Studio 2012\Projects\intubation_master\Debug\intubation_master.exe : fatal error LNK1120: 7 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\hawk\Documents\Visual Studio 2012\Projects\intubation_master\intubation_master\intubation_master.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:16.00
